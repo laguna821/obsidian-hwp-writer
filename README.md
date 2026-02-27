@@ -2,7 +2,7 @@
 - **대형 한글 표 (두 세 페이지 이상 넘어가는 마크다운 테이블을 포함한 문서)**를 한글 hwpx로 내보내기 하면 hwpx 실행시 튕기는 문제를 해결
 - 중요 업데이트이므로 1.4.0 압축파일 내용을 기존의 옵시디언 plugin 볼트에 obsidian-hwp-writer 폴더 안에 전부 덮어쓰세요.
 
-##최신 버전 링크:
+## 최신 버전 링크:
 https://github.com/laguna821/obsidian-hwp-writer/releases/tag/obsidian-hwpx-writer
 
 # Obsidian HWP Writer
