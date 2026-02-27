@@ -1,9 +1,0 @@
-{
-  "id": "obsidian-hwp-writer",
-  "name": "HWP Writer",
-  "version": "0.1.0",
-  "minAppVersion": "1.0.0",
-  "description": "한글(HWP) 스타일 편집 툴바 + HWPX/PDF/HTML 내보내기 + 커스텀 템플릿 + 라이브 미리보기를 하나로 통합한 올인원 플러그인",
-  "author": "laguna821",
-  "isDesktopOnly": true
-}
