@@ -1,9 +1,10 @@
-# MAJOR UPDATE (2-28-2026)
+# MAJOR UPDATE (2-28-2026) v2 - 대형 표 크래시 해결 + 워드 내보내기 통합본
 - **대형 한글 표 (두 세 페이지 이상 넘어가는 마크다운 테이블을 포함한 문서)**를 한글 hwpx로 내보내기 하면 hwpx 실행시 튕기는 문제를 해결
-- 중요 업데이트이므로 1.4.0 압축파일 내용을 기존의 옵시디언 plugin 볼트에 obsidian-hwp-writer 폴더 안에 전부 덮어쓰세요.
+- 중요 업데이트이므로 1.5.0 압축파일 내용을 기존의 옵시디언 plugin 볼트에 obsidian-hwp-writer 폴더 안에 전부 덮어쓰세요.
+- 추가 기능 (1.5.0) : 이제 워드 파일 내보내기가 됩니다! 완벽하게 매핑되지는 않지만, 어쨌든 됩니다!
 
-## 최신 버전 링크:
-https://github.com/laguna821/obsidian-hwp-writer/releases/tag/obsidian-hwpx-writer
+[## 최신 버전 링크 바로가기](https://github.com/laguna821/obsidian-hwp-writer/releases/tag/obsidian-hwpx-writer_1.5.0)
+
 
 # Obsidian HWP Writer
 
