@@ -1,0 +1,27 @@
+{
+    "name": "obsidian-hwp-writer",
+    "version": "0.1.0",
+    "description": "Obsidian HWP Writer - 한글 스타일 편집 + HWPX/PDF/HTML 내보내기",
+    "main": "main.js",
+    "scripts": {
+        "dev": "node esbuild.config.mjs",
+        "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+        "verify:portable": "node scripts/verify-portable.mjs"
+    },
+    "keywords": [
+        "obsidian",
+        "hwp",
+        "hwpx",
+        "markdown",
+        "한글"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "builtin-modules": "^3.3.0",
+        "esbuild": "0.17.3",
+        "obsidian": "latest",
+        "tslib": "2.4.0",
+        "typescript": "5.0.4"
+    }
+}
