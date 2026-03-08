@@ -49,7 +49,7 @@
 - 중요 업데이트이므로 1.5.0 압축파일 내용을 기존의 옵시디언 plugin 볼트에 obsidian-hwp-writer 폴더 안에 전부 덮어쓰세요.
 - 추가 기능 (1.5.0) : 이제 워드 파일 내보내기가 됩니다! 완벽하게 매핑되지는 않지만, 어쨌든 됩니다!
 
-[## 최신 버전 링크 바로가기](https://github.com/laguna821/obsidian-hwp-writer/releases/tag/obsidian-hwpx-writer_1.5.0)
+[## 구버전 링크 (1.5.0)](https://github.com/laguna821/obsidian-hwp-writer/releases/tag/obsidian-hwpx-writer_1.5.0)
 
 
 # Obsidian HWP Writer
