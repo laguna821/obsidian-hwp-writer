@@ -1,9 +1,9 @@
 {
   "id": "obsidian-hwp-writer",
   "name": "HWP Writer",
-  "version": "0.1.0",
-  "minAppVersion": "1.0.0",
-  "description": "한글(HWP) 스타일 편집 툴바 + HWPX/DOCX/HTML 내보내기 + 커스텀 템플릿 + 라이브 미리보기를 하나로 통합한 올인원 플러그인",
+  "version": "1.6.0",
+  "minAppVersion": "1.5.0",
+  "description": "Obsidian plugin for HWPX export plus a separate DOCX v2 template, preview, and export workflow.",
   "author": "laguna821",
   "isDesktopOnly": true
 }
