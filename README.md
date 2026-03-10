@@ -1,6 +1,6 @@
 # MAJOR UPDATE (3-8-2026) v3 워드 (.docx)파일 내보내기가 별도의 파이프라인으로 분리되었습니다!
 
-## obsidian-hwp-writer 주요기능 안내
+## obsidian-hwp-writer 1.6.0 주요기능 안내
 
 ### 1. 워드 전용 미리보기 / 한글 전용 미리보기 분할
 
