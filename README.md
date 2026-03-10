@@ -1,3 +1,55 @@
+# MAJOR UPDATE (3-10-2026) v4 
+# 워드 (.docx)파일 프리셋/Import/Export 및 UI/UX 대폭 개선
+
+## obsidian-hwp-writer 1.7.0 주요기능 안내
+### 1. 워드 템플릿 편집 메뉴 UI/UX 개선 안내
+
+- 워드 템플릿 설정 메뉴를 전면 개선하였습니다
+  - 더 이상 모든 메뉴에서 한 글자 칠때마다 키보드 커서가 밖으로 튕기지 않습니다.
+  - 각 Heading/Body / Text type 별로 커스텀 폰트를 설정 할 때 워드에서 글꼴을 고르듯이 드롭다운으로 '(내 컴퓨터에 깔려 있는 폰트 TTF파일을 기반으로,) 어떤 글씨체인지 눈으로 어떤 폰트인지 보고' 고를 수 있습니다.
+  - 미리보기 탭을 개선하였습니다. 미리보기가 더 이상 밑으로 그냥 길게 쭉 나열 되서 화면 밑으로 길게 나열되지 않습니다.
+  - 글꼴을 설정한 후 누르는 "SAVE" (적용) 버튼을 우측 상단으로 옮겨서 잘 보이게 했습니다.
+
+
+### 2. 워드 템플릿 Preset Import/Export 기능 추가
+
+- 이제 각 Heading 1~9, Title, Subtitle, Body Text를 각각 지정하고 Preset을 저장 및 내보내기 할 수 있습니다.
+
+<img width="629" height="530" alt="{A0313A3D-6A63-4E9E-B5CF-6829CC9CDCEB}" src="https://github.com/user-attachments/assets/24fe6d9e-34ad-4947-9906-7dd04bb18dbd" />
+
+<img width="1011" height="573" alt="{5E88C72D-2E41-4E7D-B4E9-F758D5E85EAE}" src="https://github.com/user-attachments/assets/c78f0a45-c5e2-47e7-9cf4-a4a429d9aeca" />
+
+- 플러그인에서 "시스템 폰트 디렉토리" 및 "추가 폰트 폴더"에 내 폰트 TTF 파일들이 있는 폴더를 지정하면, 워드 템플릿 메뉴에서 커스텀 폰트를 포함한 모든 폰트를 각각 지정할 수 있습니다.
+
+<img width="1018" height="575" alt="{35895880-3D1F-4DEE-A282-71C3FC4379E2}" src="https://github.com/user-attachments/assets/49894367-a7d9-4e06-88e5-f91f484abf1b" />
+
+- 템플릿 이름 지정 및 저장/불러오기/내보내기가 가능합니다.
+  - 템플릿 Export는 **반드시 Save - Export 순서로** 해주세요. 
+  - 템플릿을 일일히 설정한 다음 Save를 한 후, Export를 하면 JSON 파일로 저장해둘 수 있습니다.
+    - JSON 파일로 "전자공학회 논문 서식.JSON" 혹은 "경남도청 사업계획서 서식.JSON" 같은 형식을 얼마든지 만들고 불러와보세요.
+    - JSON 파일을 Export로 불러오면 반드시 "Save" 혹은 "Save & Use"를 눌러야 적용됩니다.
+    - Obsidian-hwp-writer에는 5칸의 템플릿 슬롯이 내장되어 있습니다. (5개 이상의 서식이 필요하시면 JSON으로 템플릿을 만들어놓으시고 슬롯1-슬롯5번 중 하나에 덮어씌워서 사용하세요)
+
+<img width="736" height="668" alt="{C7B845F1-A17A-41E3-B606-F14BB9FC2C51}" src="https://github.com/user-attachments/assets/1b144f69-07ab-4ebf-8f78-087aa9fcf03d" />
+
+- 템플릿 서식 Preset 기능 및 로컬 폰트 드롭다운을 테스트해보고 DOCX파일로 내보내기 한 결과물 테스트입니다. 다음과 같이 각각 서로 다른 커스텀 폰트와 정렬을 적용해도 잘 적용됩니다.
+  - `Heading 1 (#)`은 `나눔 명조 Extra Bold 20pt, 가운데 정렬`,
+  - `Heading 2 (##)`는 `Pretendard Variable 16pt, 왼쪽 정렬`,
+  - `Heading 3 (###)`는 `조선신명조 13pt, 왼쪽 정렬, 5pt 들여쓰기`,
+  - `Heading 4 (####)`는 `나눔명조 11pt, 왼쪽 정렬, 10pt 들여쓰기`,
+
+
+## 업데이트 방법
+
+[obsidian hwp writer 1.7.0.zip](https://github.com/user-attachments/files/25861396/obsidian.hwp.writer.1.7.0.zip)
+
+- 바로 위 링크의 obsidian hwp writer 1.7.0.zip 최신 릴리즈 버전을 다운받습니다.
+- 옵시디언 폴더의 .obsidian/plugins의 obsidian-hwp-writer에 기존의 파일들을 전부 덮어 씌우시면 됩니다 
+  - (혹은 지우고 위의 압축파일 내용을 새로 클린 설치하셔도 됩니다)
+
+
+---
+
 # MAJOR UPDATE (3-8-2026) v3 워드 (.docx)파일 내보내기가 별도의 파이프라인으로 분리되었습니다!
 
 ## obsidian-hwp-writer 1.6.0 주요기능 안내
@@ -42,7 +94,7 @@
 
 옵시디언 폴더의 .obsidian/plugins의 obsidian-hwp-writer에 기존의 파일들 덮어 쓰기 + 1.6.0 버전에서 새로 추가 된 word-assets를 폴더째로 새로 만들어서 복사하기 (그러니까 1.6.0 버전 파일들을 기존 파일들에 새로 덮어 씌우세요.)
 
-
+---
 
 # MAJOR UPDATE (2-28-2026) v2 - 대형 표 크래시 해결 + 워드 내보내기 통합본
 - **대형 한글 표 (두 세 페이지 이상 넘어가는 마크다운 테이블을 포함한 문서)**를 한글 hwpx로 내보내기 하면 hwpx 실행시 튕기는 문제를 해결
