@@ -1,6 +1,6 @@
 {
   "id": "obsidian-hwp-writer",
-  "name": "HWP Writer",
+  "name": "Obsidian Hwp Writer",
   "version": "1.6.0",
   "minAppVersion": "1.5.0",
   "description": "Obsidian plugin for HWPX export plus a separate DOCX v2 template, preview, and export workflow.",
